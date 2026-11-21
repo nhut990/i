@@ -102,7 +102,7 @@
   <div class="card">
     <h1>Cài đặt ứng dụng IPA</h1>
 
-    <label>Link file .ipa (bắt buộc https://)</label>
+    <label>Link files .ipa (Direct link)</label>
     <div class="input-group">
       <input id="ipaUrl" type="url" placeholder="https://github.com/.../App.ipa" />
       <button class="btn-fetch" id="btnFetchInfo" type="button">Lấy thông tin</button>
@@ -131,8 +131,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bplist-parser@0.3.2/dist/bplist-parser.min.js"></script>
 
   <script>
-    const WORKER_PLIST = "https://cai-ipa.vannhut9090.workers.dev/";
-    const WORKER_PROXY = "https://ipa.vannhut9090.workers.dev/?url=";
+    const WORKER_PLIST = "https://cai-ipa.nhut990.workers.dev/";
+    const WORKER_PROXY = "https://ios.nhut990.workers.dev/?url=";
     const DEFAULT_IMAGE_URL = "https://raw.githubusercontent.com/nhut990/files/refs/heads/main/hinh/logo_minhnhut.PNG";
 
     let builtInstallUrl = "";
